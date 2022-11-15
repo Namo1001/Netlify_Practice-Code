@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+    <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Namo, Joshua Miguel</title>
+
+</head>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+            <a class="brand-logo">MOTIVATIONAL QUOTES ABOUT LIFE</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">HOME</a></li>
+                <li><a href="badges.html">CONTACTS</a></li>
+                <li><a href="collapsible.html">ABOUT US</a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">HELP<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            </div>
+            
+    <!-- Dropdown Structure -->
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">LINKS</a></li>
+                    <li><a href="#!">LICENCE</a></li>
+                    <li><a href="#!">SETTINGS</a></li>
+                </ul>
+        </nav>
+    </div>
+
+<!-- SideNav Structure -->
+    <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+        <div class="background">
+            <img src="Images/aurora.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="Images/Beam Beam.jpg"></a>
+        <a href="#name"><span class="white-text name">Joshua Miguel Namo</span></a>
+        <a href="#email"><span class="white-text email">joshuamiguelnamo@gmail.com</span></a>
+        </div></li>
+        <li><a class="teal-text">About Me</a></li>
+        <li><a href="#!"><i class="material-icons">account_circle</i>Lifestyle</a></li>
+        <li><a href="#!"><i class="material-icons">work</i>Work</a></li>
+        <li><a href="#!"><i class="material-icons">school</i>Education</a></li>
+        <li><a href="#!"><i class="material-icons">language</i>Travel</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="blue-text">Follow Me</a></li>
+        <li><a class="waves-effect" href="">Facebook</a></li>
+        <li><a class="waves-effect" href="">Twitter</a></li>
+        <li><a class="waves-effect" href="">Instagram</a></li>
+        <li><a class="waves-effect" href="">Youtube</a></li>
+    </ul>
+
+<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+<body>
+    <body style="background-image:url(Images/background\ 3.jpeg)"></body>
+        <div class="container">
+<!-- header -->
+        <h1 class="white-text" style="text-align: center">MOTIVATIONAL QUOTES</h1>
+<!-- blockquote -->
+<div class="container"></div>
+    <h5 class=" white-text"style="text-align: center">Motivation reflects something unique about each one of us and allows us to gain valued outcomes like improved performance, enhanced wellbeing, personal growth, or a sense of purpose.</h5>
+        <blockquote class="white-text"> A major function of leaders is to support the motivation of other individuals and groups. (There is debate as to whether a person can motivate another versus whether a person can only support another to motivate themselves.) There are approaches to motivating people that are destructive, for example, fear and intimidation. While these approaches can seem very effective in promptly motivating people, the approaches are hurtful, and in addition, they usually only motivate for the short-term.</blockquote>
+
+<!-- Dropdown Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems, {direction: 'bottom'});
+        });
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, screenLeft);
+        });
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+        });
+        ('.dropdown-trigger').dropdown();
+</script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<!-- Responsive Images -->
+<h3 class="white-text">Motivational Images</h3>
+        <div class="row">
+            <div class="col s12 m3">
+                <img src="Images/Motivational Photo 1.jpg" alt="" class="responsive-img class materialboxed">
+    </div>
+        <div class="row">
+            <div class="col s12 m3">
+                <img src="Images/Motivational Photo 2.jpg" alt="" class="responsive-img class materialboxed">
+    </div>
+        <div class="row">
+            <div class="col s12 m3">
+                <img src="Images/Motivational Photo 3.jpg" alt="" class="responsive-img class materialboxed">
+    </div>
+        <div class="row">
+            <div class="col s12 m3">
+                <img src="Images/Motivational Photo 4.jpg" alt="" class="responsive-img class materialboxed">
+        </div>
+    </div>
+
+<Script>
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems, screenTop);
+});
+
+  // Or with jQuery
+
+$(document).ready(function(){
+    $('.materialboxed').materialbox();
+});
+</Script>
+<!-- Responsive Videos -->
+<h3 class="white-text">Motivational Videos</h3>
+    <div class="col s12 m6">
+        <div class="video-container">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/Tuw8hxrFBH8" title="One of the Greatest Speeches Ever | Steve Jobs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="col s12 m6">
+        <div class="video-container">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/eBSeCp__xhI" title="FOCUS ON YOURSELF NOT OTHERS - Best Motivational Speech 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+    </div>
+
+<!-- Slider -->
+<h3 class="white-text"> Motivational Slider</h3>
+<div class="container">
+    <div class="col s12 m6 l12">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                <img src="Images/slider img 4.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h2 class="black-text text-lighten-3">Lets Motivate One Another!</h2>
+                    <h4 class="black-text text-lighten-3">To have better mindset.</h4>
+                </div>
+                </li>
+                <li>
+                <img src="Images/slider img 1.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h2 class="black-text text-lighten-3">Spread Hope and Love!</h2>
+                    <h4 class="black-text text-lighten-3">It is our purpose in Life.</h4>
+                </div>
+                </li>
+                <li>
+                <img src="Images/slider img 2.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h2 class="black-text text-lighten-3">We must Forgive and Forget!</h2>
+                    <h4 class="black-text text-lighten-3">It takes a lot of time and experience.</h4>
+                </div>
+                </li>
+                <li>
+                <img src="Images/slider img 3.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h2 class="black-text text-lighten-3">Have Faith in our Humanity!</h2>
+                    <h4 class="black-text text-lighten-3">Having this mindset can inspire others to do the same.</h4>
+                </div>
+                </li>
+            </ul>
+            </div>
+    </div>
+</div>
+<!-- Slider Script -->
+<Script>
+document.addEventListener('DOMContentLoaded', function() {
+var elems = document.querySelectorAll('.slider');
+var instances = M.Slider.init(elems, 'right');
+});
+
+// Or with jQuery
+
+$(document).ready(function(){
+$('.slider').slider('');
+});
+</Script>
+</div>   
